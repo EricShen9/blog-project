@@ -15,8 +15,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     
       <body className={`${lato.className} bg-white text-black`}>
         <header className="bg-blue-600 text-white p-4">
-          <div className="max-w-2xl mx-auto justify-center">
-            <h1 className="text-2xl font-bold text-center">My Blog</h1>
+          <div className="max-w-2xl ">
+            <h1 className="text-2xl font-bold px-6">My Blog</h1>
           </div>
         </header>
 
